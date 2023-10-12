@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html,
+
+.navbar {
+ 
+  padding: 10px; 
+  text-align: center;
+display: flex;
+justify-content: center;
+  
+}
+.btn{
+  border: 0;
+  margin-left: 16px;
+  background-color: white;
+ height: 9px;
+}
+.btn:hover {
+  z-index: 1; 
+  transform: scale(1.1);
+}
+.inp{
+  height: 26px;
+  width: 264px;
+  display: flex;
+  outline: none;
+   border: 0;
+  justify-content: center;
+}
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+ 
+  
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.main-container{
+  display:flex;
+  justify-content: center;
+}
+
+.navbar {
+ 
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.input-field {
+  padding: 10px;
+  width:490px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top: 4px;
+  max-width: 720px;
+  margin-top: 20px;
+border-radius: 5px;
+padding-bottom: 20px;
+
+border: 1px solid #000;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 7px;
+  margin-left: 18px;
+  margin-top: 18px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color:whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.badge {
+  display: flex;
+ 
+    right: 0;
+  background-color: #CCFF78;
+  position: absolute;
+  justify-content: flex-end;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  margin-bottom: 2px;
+  padding: 6px 6px;
+  width:102px;
+  height:30px;
+  border-radius: 10px 0px 0px 10px;
+  font-weight: bold;
+  border-radius:
+  0px, 10px, 10px, 10px ;
+
+}
+
+img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.title {
+ 
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: start;
+  width: 160px;
+ 
+}
+
+.variants {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6px;
+  padding-right: 9px;
+  width: 100%;
+}
+
+.variant {
+  margin: 5px;
+  padding: 4px 8px;
+  height: 22px;
+   text-align: start;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.add{
+  background-color: #CCFF78;
+}
+.grid-card{
+  display: grid;
+  min-width: 500px;
+  grid-template-columns: 1fr 1fr;
+ 
+  margin-top: 20px;
+  padding: 16px;
+    gap: 15px; /* Gap between grid items */
+    background-color: white;
+    border: 1px solid whitesmoke;
+}
+.description-card{
+  display:flex;
+  flex-direction: column;
+  margin-left:28px
+}
+.new-variant{
+  border:0;
+  text-align: start;
+  width: 220px;
+}
+.button-img{
+  width: 30px;
+height: 30px;
+flex-shrink: 0;
+background-color: white;
+border: 0;
+}
+.new-badge{
+  position: absolute;
+  background-color: #CCFF78;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 405px;
+  padding: 6px 6px;
+  width:76px;
+  height:20px;
+  border-radius: 4px;
+  font-weight: bold;
+  border-radius:
+  0px, 10px, 10px, 10px ;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 650px) {
+  .container {
+    max-width: 94%; /* Adjust the maximum width for smaller screens */
+  }
+  .input-field{
+    height: 26px;
+    width: 234px;
+    
+    justify-content: center;
+  }
+  .grid-card{
+    display: grid;
+    min-width: 300px;
+    grid-template-columns: 1fr 1fr;
+   
+    margin-top: 20px;
+    padding: 16px;
+      gap: 15px; /* Gap between grid items */
+      background-color: white;
+      border: 1px solid whitesmoke;
+  }
+
+}
+
+/* You can add more custom styles as needed */
